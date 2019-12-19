@@ -6,7 +6,13 @@ namespace VezbaLINQ
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Sum:");
+            Test.Sum();
+
+            Console.WriteLine("Average:");
+            Test.Average();
+
+            Console.ReadLine();
         }
     }
 }
